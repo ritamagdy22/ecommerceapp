@@ -7,8 +7,8 @@ class MyTheme {
       scaffoldBackgroundColor: AppColors.WhiteColor,
       textTheme: TextTheme(
           titleSmall: TextStyle(
-              fontSize: 18,
-              color: AppColors.BlackColor.withOpacity(0.7),
+              fontSize: 20,
+              color: AppColors.WhiteColor.withOpacity(0.7),
               fontWeight: FontWeight.w300),
           titleMedium: const TextStyle(
               fontSize: 24,
@@ -17,5 +17,7 @@ class MyTheme {
           titleLarge: const TextStyle(
               fontSize: 16,
               color: AppColors.WhiteColor,
-              fontWeight: FontWeight.w300)));
+              fontWeight: FontWeight.w300),
+          bodySmall: const TextStyle(
+              fontSize: 30, color: Colors.white, fontWeight: FontWeight.bold)));
 }
